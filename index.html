@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>loja</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="shortcut icon" href="img/favicon.png">
+
+	<!---========= Fonte Poppins ===========---->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<!--========== Fontawesame =============---->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+  <!---==================== Topo ===================--->
+  <div class="topo"> 
+  	<span>Temos 30% de desconto em todos nossos produtos.</span>
+  </div>
+
+  <!---==================== Navbar ===================--->
+  <nav class="navbar">
+  	<a href="index.html" class="logo">
+  		<img src="img/logo.png">
+  	</a>
+
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon">
+      <span class="nav-icon"></span>
+    </label>
+
+  	<ul class="menu">
+  		<li><a href="product_page.html">Comprar Agora</a></li>
+  		<li>
+  			<a href="liquidacao.html">Liquidação</a>
+  			<span class="nav-liquid">Oferta</span>
+  		</li>
+  		<li><a href="#popu-product">Populares</a></li>
+  		<li><a href="#contact">Contacto</a></li>
+  	</ul>
+
+  	<div class="btn-nav">
+  		<input type="checkbox" id="nav-search-btn">
+  		<label for="nav-search-btn" class="nav-searches">
+  			<i class="fa-solid fa-magnifying-glass"></i>
+  			<form action="">
+  				<label for="nav-search-btn" class="nav-close-serch">
+  					<i class="fa-solid fa-x"></i>
+  				</label>
+  				<div class="search-nav">
+  					<input type="text" placeholder="Pesquisar Produtos" required>
+  					<button><i class="fa-solid fa-magnifying-glass"></i></button>
+  				</div>
+  			</form>
+  		</label>
+  		<a href="#" class="nav-user">
+  			<i class="fa-solid fa-user"></i>
+  		</a>
+  		<a href="#" class="nav-cart">
+  			<i class="fa-solid fa-cart-shopping"></i>
+  			<span>0</span>
+  		</a>
+  	</div>
+  </nav>
+
+  <!---==================== Header ===================--->
+  <section id="header">
+      <div class="header-text">
+        <strong>Produtos Favoritos</strong>
+        <h1><span>Produtos de qualidade</span> acima de media, venha agora</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+        <a href="#">Compra Agora</a>
+      </div>
+
+      <div class="header-bg">
+        <img src="img/main-bg.png">
+      </div>        
+  </section>
+
+  <!---==================== Parceiros ===================--->
+  <section id="parceiros">
+  	<div class="logo-container">
+  		<img src="img/logo-1.png">
+  		<img src="img/logo-2.png">
+  		<img src="img/logo-3.png">
+  		<img src="img/logo-4.png">
+  	</div>
+  </section>
+
+  <!---=============== Produtos-Recentes =================--->
+  <section class="recent-prod">
+  	<div class="product-header">
+  		<h3>Produtos Recentes</h3>
+  		<a>Todos</a>
+  	</div>
+
+  	<div class="recent-prod-container">
+  		<!--====== Box-1 =======-->
+  		<div class="recent-prod-box">
+
+  			<div class="recent-prod-img">
+  				<img src="img/h1.png">
+  			</div>
+
+  			<div class="recent-prod-text">
+  				<a href="#" class="prod-box-name">Fones Wireless</a>
+  				<span class="prod-box-category">
+  					<a>Electrônico</a> <a>Acessórios de Computador</a>
+  				</span>
+
+  				<span class="prod-box-price">350.25Mt <del>500Mt</del></span>
+  			</div>
+  		</div>
+
+  		<!--====== Box-2 =======-->
+  		<div class="recent-prod-box">
+
+  			<div class="recent-prod-img">
+  				<img src="img/h2.png">
+  			</div>
+
+  			<div class="recent-prod-text">
+  				<a href="#" class="prod-box-name">Fones Wireless</a>
+  				<span class="prod-box-category">
+  					<a>Electrônico</a> <a>Acessórios de Computador</a>
+  				</span>
+
+  				<span class="prod-box-price">1350.25Mt <del>760Mt</del></span>
+  			</div>
+  		</div>
+
+  		<!--====== Box-3 =======-->
+  		<div class="recent-prod-box">
+
+  			<div class="recent-prod-img">
+  				<img src="img/h3.png">
+  			</div>
+
+  			<div class="recent-prod-text">
+  				<a href="#" class="prod-box-name">Fones Wireless</a>
+  				<span class="prod-box-category">
+  					<a>Electrônico</a> <a>Acessórios de Computador</a>
+  				</span>
+
+  				<span class="prod-box-price">250.25Mt <del>300Mt</del></span>
+  			</div>
+  		</div>
+
+  		<!--====== Box-4 =======-->
+  		<div class="recent-prod-box">
+
+  			<div class="recent-prod-img">
+  				<img src="img/h4.jpg">
+  			</div>
+
+  			<div class="recent-prod-text">
+  				<a href="#" class="prod-box-name">Fones Wireless</a>
+  				<span class="prod-box-category">
+  					<a>Electrônico</a> <a>Acessórios de Computador</a>
+  				</span>
+
+  				<span class="prod-box-price">750.25Mt <del>1500Mt</del></span>
+  			</div>
+  		</div>
+
+  		<!--====== Box-5 =======-->
+  		<div class="recent-prod-box">
+
+  			<div class="recent-prod-img">
+  				<img src="img/h5.png">
+  			</div>
+
+  			<div class="recent-prod-text">
+  				<a href="#" class="prod-box-name">Fones Wireless</a>
+  				<span class="prod-box-category">
+  					<a>Electrônico</a> <a>Acessórios de Computador</a>
+  				</span>
+
+  				<span class="prod-box-price">2250.25Mt <del>3500Mt</del></span>
+  			</div>
+  		</div>
+
+  		<!--====== Box-6 =======-->
+  		<div class="recent-prod-box">
+
+  			<div class="recent-prod-img">
+  				<img src="img/h6.jpg">
+  			</div>
+
+  			<div class="recent-prod-text">
+  				<a href="#" class="prod-box-name">Fones Wireless</a>
+  				<span class="prod-box-category">
+  					<a>Electrônico</a> <a>Acessórios de Computador</a>
+  				</span>
+
+  				<span class="prod-box-price">500.25Mt <del>700Mt</del></span>
+  			</div>
+  		</div>
+  	</div>
+  </section>
+
+  <!---======================= Vendas ====================--->
+  <section class="venda">
+  	
+  	<div class="venda-box">
+  		<img src="img/sale-1.jpg">
+  		<a href="#" class="venda-text">
+  			<strong>Laptop com Touch Screen</strong>
+  			<span>Desconto de 20%</span>
+  		</a>
+  	</div>
+
+    <div class="venda-box">
+      <img src="img/sale-2.jpg">
+      <a href="#" class="venda-text">
+        <strong>Laptop com Touch Screen</strong>
+        <span>Desconto de 20%</span>
+      </a>
+    </div>
+
+    <div class="venda-box">
+      <img src="img/sale-3.jpg">
+      <a href="#" class="venda-text">
+        <strong>Laptop com Touch Screen</strong>
+        <span>Desconto de 20%</span>
+      </a>
+    </div>
+
+  </section>
+
+  <!---================ Produtos populares ===============--->
+  <section id="popu-product">
+    <div class="popu-header">
+      <h3>Produtos Populares</h3>
+      <a>All</a>
+    </div>
+
+    <div class="popu-prod-container">
+      <div class="prod-box">
+        <a href="#" class="prod-img">
+          <img src="img/p1.png">
+        </a>
+        <div class="prod-text">
+          <a href="#" class="prod-box-name">Camera de Alta Qualidade</a>
+          <span class="prod-box-categoryy">
+            <a>Electrônico</a> <a>Acessórios de Computador</a>
+          </span>
+          <p>Lorem Ipsum is simply dummy text</p>
+          <span class="pd-box-price">250Mt</span>
+          <del>150Mt</del>
+        </div>
+      </div>
+
+      <div class="prod-box">
+        <a href="#" class="prod-img">
+          <img src="img/p2.png">
+        </a>
+        <div class="prod-text">
+          <a href="#" class="prod-box-name">Camera de Alta Qualidade</a>
+          <span class="prod-box-categoryy">
+            <a>Electrônico</a> <a>Acessórios de Computador</a>
+          </span>
+          <p>Lorem Ipsum is simply dummy text of the</p>
+          <span class="pd-box-price">2250Mt</span>
+          <del>1150Mt</del>
+        </div>
+      </div>
+
+      <div class="prod-box">
+        <a href="#" class="prod-img">
+          <img src="img/p3.png">
+        </a>
+
+        <div class="prod-text">
+          <a href="#" class="prod-box-name">Camera de Alta Qualidade</a>
+          <span class="prod-box-categoryy">
+            <a>Electrônico</a> <a>Acessórios de Computador</a>
+          </span>
+          <p>Lorem Ipsum is simply dummy text</p>
+          <span class="pd-box-price">520Mt</span>
+          <del>650Mt</del>
+        </div>
+      </div>
+
+      <div class="prod-box">
+        <a href="#" class="prod-img">
+          <img src="img/p4.png">
+        </a>
+
+        <div class="prod-text">
+          <a href="#" class="prod-box-name">Camera de Alta Qualidade</a>
+          <span class="prod-box-categoryy">
+            <a>Electrônico</a> <a>Acessórios de Computador</a>
+          </span>
+          <p>Lorem Ipsum is simply dummy text</p>
+          <span class="pd-box-price">250Mt</span>
+          <del>150Mt</del>
+        </div>
+      </div>  
+
+      <div class="prod-box">
+        <a href="#" class="prod-img">
+          <img src="img/p5.png">
+        </a>
+
+        <div class="prod-text">
+          <a href="#" class="prod-box-name">Camera de Alta Qualidade</a>
+          <span class="prod-box-categoryy">
+            <a>Electrônico</a> <a>Acessórios de Computador</a>
+          </span>
+          <p>Lorem Ipsum is simply dummy text</p>
+          <span class="pd-box-price">750Mt</span>
+          <del>850Mt</del>
+        </div>
+      </div>  
+    </div>
+    
+  </section>
+
+  <!---===================== Contact =====================--->
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <span>Suport</span>
+      <h3>Precisa de Ajuda?</h3>
+      <a href="#">Contacte-nos</a>
+    </div>
+    <img src="img/contact_bg.webp" class="contact-bg-r">
+    <img src="img/contact_bg1.jpg" class="contact-bg-l">
+  </section>
+
+  <!---===================== Service =====================--->
+  <div class="services">
+    <div class="service-box">
+      <i class="fa-solid fa-truck-fast"></i>
+      <span>Entregas Gratis</span>
+      <p>Entregas Gratis para Todo Pais</p>
+    </div>
+
+    <div class="service-box">
+      <i class="fa-solid fa-headphones-simple"></i>
+      <span>Suporte 24H/7</span>
+      <p>Damos Suporte 24H por Dia</p>
+    </div>
+
+    <div class="service-box">
+      <i class="fa-solid fa-rotate"></i>
+      <span>100% de Reembolso</span>
+      <p>Prazo de 30 Dias Para o Reembolso</p>
+    </div>
+  </div>
+
+  <!---===================== Footer =====================--->
+  <footer>
+    <div class="part-1">
+      <div class="footer-pay">
+        <div class="footer-pay-logo">
+          <img src="img/master_card.png">
+          <img src="img/visa.png">
+          <img src="img/paypal.png">
+          <img src="img/ebay.png">
+        </div>
+      <strong>Pagamento Seguro e Eficaz</strong>
+    </div>
+    </div>
+
+    <div class="footer-container">
+      <div class="footer-box">
+        <a href="#" class="footer-logo">Logo</a>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+        <div class="footer-social">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-link">
+        <strong>Links Rapidos</strong>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-link">
+        <strong>Outros Links</strong>
+        <ul>
+          <li><a href="#">Nossos Produtos</a></li>
+          <li><a href="#">Politicas de Privacidade</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Terrmos & Condições</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-subcribe">
+        <strong>Escreva-se</strong>
+        <p>Lorem Ipsum is hgcaxt of the printing and typesetting industry.</p>
+        <div class="subcribe-box">
+          <input type="email" placeholder="Seu Email">
+          <button>Enviar</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
